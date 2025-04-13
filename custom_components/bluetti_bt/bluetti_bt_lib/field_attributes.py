@@ -279,6 +279,16 @@ FIELD_ATTRIBUTES: dict[str, FieldAttributes] = {
         setter=False,  # Disabled for safety reasons
         name="Grid Charge",
     ),
+    "output_mode": FieldAttributes(
+        type=FieldType.NUMERIC,
+        setter=False,  # Disabled
+        name="Output Mode",
+    ),
+    "my_charge_on": FieldAttributes(
+        type=FieldType.NUMERIC,
+        setter=False,  # Disabled for safety reasons
+        name="My Charge",
+    ),
     "time_control_on": FieldAttributes(
         type=FieldType.BOOL,
         setter=False,  # Disabled for safety reasons
